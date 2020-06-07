@@ -11,7 +11,7 @@ data_points = [0, 2.673, None, 6.663, 10.361, 10.06, 8.473, 3.711, None, -0.87, 
 
 # Take the None's out of the list with Filter
 # Filter creates a new list, only including the elements of the argument list where the argument function returns a truthy value.
-refined_data_points = list(filter(lambda x: x is not None, data_points))
+refined_data_points = filter(lambda x: x is not None, data_points)
 print(refined_data_points)
 
 # For some reason, the absolute values of each are required

@@ -13,7 +13,7 @@ a = 4
 
 def foo():
     global a
-    a = 5 # This is able to mutate the global a since it has been dexlared global
+    a = 5 # This is able to mutate the global a since it has been declared global
 foo()
 print(a)
 

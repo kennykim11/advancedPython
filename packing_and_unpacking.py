@@ -37,3 +37,4 @@ def myFunction(**kwargs):
     [print(f"Argument {num}: {arg[0]} = {arg[1]}") for num, arg in zip(range(len(kwargs)), kwargs.items())]
 
 myFunction(Alice=58, Bob=49)
+print('Hello', end='')
